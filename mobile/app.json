@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Costume Marketplace",
+    "slug": "costume-marketplace",
+    "scheme": "costume",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "mock-project"
+      },
+      "apiUrl": process.env.EXPO_PUBLIC_API_URL,
+      "stripePublishableKey": process.env.EXPO_PUBLIC_STRIPE_PUBLISHABLE_KEY
+    }
+  }
+}
